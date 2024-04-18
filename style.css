@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.header {
+  padding: 10px 70px;
+}
+
+.seal-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seal-div img {
+  width: 60px;
+  height: 60px;
+}
+
+.seal-div .seal-header {
+  font-size: 18px;
+  font-weight: 600;
+  color: #707070;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-family: 'Cinzel', serif;
+  margin: 12px 0;
+}
+
+.header .navbar {
+  background-color: #b40909;
+  border: none;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar .nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 12px 10px;
+}
+
+.header .navbar .nav-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar .nav-list .fa-caret-down {
+  margin-left: 15px;
+  font-size: 16px;
+}
