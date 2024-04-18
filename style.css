@@ -156,7 +156,6 @@ body {
 
 .second-div {
   margin-top: 55px;
-  height: 100vh;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -215,4 +214,33 @@ body {
   font-weight: 600;
   letter-spacing: 0.4px;
   line-height: 25px;
+  transition: all ease-in-out 0.2s;
+}
+
+.news-h a:hover {
+  color: #b40909;
+  text-decoration: underline;
+}
+
+.third-grid-item .document-div {
+  font-size: 14px;
+  font-weight: 400;
+  color: #454545;
+}
+
+.recent-news-container {
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.recent-news-container .image {
+  width: 500px;
+  height: 400px;
+}
+
+.recent-news-container .image img {
+  width: 100%;
+  height: 100%;
 }
