@@ -85,9 +85,9 @@ body {
   top: 100%;
   background-color: #fff;
   z-index: 999;
-  -webkit-box-shadow: 1px 3px 5px 0px rgba(94, 89, 94, 1);
-  -moz-box-shadow: 1px 3px 5px 0px rgba(94, 89, 94, 1);
-  box-shadow: 1px 3px 5px 0px rgba(94, 89, 94, 1);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(94, 89, 94, 1);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(94, 89, 94, 1);
+  box-shadow: 1px 1px 5px 0px rgba(94, 89, 94, 1);
 }
 
 .navbar .nav-list li:hover .dropdown-menu {
@@ -107,6 +107,7 @@ body {
 
 .dropdown-menu ul .list a {
   font-size: 17px;
+  font-weight: 600;
   color: #707070;
   text-decoration: none;
   transition: all ease-in-out 0.3s;
