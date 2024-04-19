@@ -37,12 +37,12 @@ body {
 
 .seal-div .seal-header {
   font-size: 1.1em;
-  font-weight: 500;
+  font-weight: 600;
   color: #707070;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   margin: 12px 0;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.8px;
 }
 
 .navbar {
