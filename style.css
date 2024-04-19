@@ -126,9 +126,9 @@ body {
 
 .top-div .image-div {
   height: 100%;
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(84, 84, 84, 1);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(84, 84, 84, 1);
-  box-shadow: 1px 1px 5px 0px rgba(84, 84, 84, 1);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(140, 138, 140, 1);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(140, 138, 140, 1);
+  box-shadow: 1px 1px 5px 0px rgba(140, 138, 140, 1);
 }
 
 .image-div img {
@@ -346,6 +346,12 @@ footer .grid-container .grid-2 ul li a {
   display: flex;
   align-items: center;
   font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .grid-container .grid-2 ul li a:hover {
+  text-decoration: underline;
+  color: #b40909;
 }
 
 footer .grid-container .grid-3 ul li {
@@ -360,6 +366,12 @@ footer .grid-container .grid-3 ul li a {
   display: flex;
   align-items: center;
   font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .grid-container .grid-3 ul li a:hover {
+  text-decoration: underline;
+  color: #b40909;
 }
 
 .social-media {
