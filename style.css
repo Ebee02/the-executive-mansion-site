@@ -90,7 +90,7 @@ body {
   box-shadow: 1px 3px 5px 0px rgba(94, 89, 94, 1);
 }
 
-.header .navbar .nav-list li:hover .dropdown-menu {
+.navbar .nav-list li:hover .dropdown-menu {
   display: block;
 }
 
@@ -105,15 +105,15 @@ body {
   transition: all ease-in-out 0.3s;
 }
 
-.dropdown-menu ul .list:hover {
-  background-color: #051e3b;
-}
-
 .dropdown-menu ul .list a {
   font-size: 17px;
   color: #707070;
   text-decoration: none;
   transition: all ease-in-out 0.3s;
+}
+
+.dropdown-menu ul .list:hover a {
+  color: #fff;
 }
 
 .header .navbar .nav-list .fa-caret-down {
